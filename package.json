@@ -1,21 +1,27 @@
 {
-  "name": "vs-dark-theme",
-  "displayName": "VS Dark",
-  "description": "VS Dark Theme",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.78.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "VS Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/VS Dark-color-theme.json"
-      }
-    ]
-  }
+	"name": "vs-dark-theme",
+	"displayName": "VS Dark Theme",
+	"description": "VS Dark Theme",
+	"publisher": "VivekArtist",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.78.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"vscode",
+		"dark",
+		"theme"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "VS Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/VS Dark-color-theme.json"
+			}
+		]
+	}
 }

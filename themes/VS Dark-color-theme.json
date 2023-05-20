@@ -1,5 +1,5 @@
 {
-	"name": "VS Dark",
+	"name": "VS Dark Theme",
 	"type": "dark",
 	"semanticHighlighting": true,
 	"tokenColors": [
@@ -108,9 +108,9 @@
 		},
 		{
 			"name": "Identifier",
-			"scope": "variable, support.variable, support.class, support.constant, meta.definition.variable entity.name.function",
+			"scope": "variable, support.variable, support.class, support.constant, meta.definition.variable entity.name.function, entity.name.variable",
 			"settings": {
-				"foreground": "#ebeef0"
+				"foreground": "#f92aad"
 			}
 		},
 
@@ -161,7 +161,14 @@
 			"name": "Keyword",
 			"scope": "keyword, modifier, storage.modifier, support.type.object, constant.language, variable.language.this, variable.language.special.self",
 			"settings": {
-				"foreground": "#ff6ac1"
+				"foreground": "#f9f52a"
+			}
+		},
+		{
+			"name": "Import",
+			"scope": "keyword.control.import.js",
+			"settings": {
+				"foreground": "#ff295e"
 			}
 		},
 		{
