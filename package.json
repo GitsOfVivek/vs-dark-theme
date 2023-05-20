@@ -4,16 +4,22 @@
 	"description": "VS Dark Theme",
 	"publisher": "VivekArtist",
 	"version": "0.0.1",
-	"engines": {
-		"vscode": "^1.78.0"
-	},
 	"categories": [
 		"Themes"
 	],
+	"homepage": "https://github.com/GitsOfVivek/vs-dark-theme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GitsOfVivek/vs-dark-theme"
+	},
+	"icon": "images/icon.png",
 	"keywords": [
 		"vscode",
 		"dark",
-		"theme"
+		"theme",
+		"theme",
+		"code",
+		"vs dark"
 	],
 	"contributes": {
 		"themes": [
@@ -23,5 +29,8 @@
 				"path": "./themes/VS Dark-color-theme.json"
 			}
 		]
+	},
+	"engines": {
+		"vscode": "^1.12.0"
 	}
 }
